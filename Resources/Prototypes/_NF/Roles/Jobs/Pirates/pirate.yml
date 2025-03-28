@@ -41,6 +41,9 @@
   id: PirateNFGear
   equipment:
     ears: ClothingHeadsetAltFreelancer
-    #belt: ClothingBeltUtility # mono
+    #belt: ClothingBeltUtility
     pocket1: BasePirateUplinkPirateCrew
-    pocket2: AppraisalTool
+    #pocket2: AppraisalTool
+  storage:
+    back:
+    - RadioHandheldNF
