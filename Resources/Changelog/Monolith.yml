@@ -1,0 +1,89 @@
+Entries:
+- author: Ark
+  changes:
+    - message: Let there be Monolith.
+      type: Add
+  id: 1
+  time: '2025-03-23T17:10:16-07:00'
+- author: Ark
+  changes:
+    - type: Add
+      message: Added Monolith Changelog!
+  id: 2
+  time: '2025-03-24T00:31:03.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Polaris to pirate shipyard
+    - type: Tweak
+      message: Anura has a water cooler now
+    - type: Fix
+      message: Anura now has a GCS and Rhea now has directional fans on airlocks.
+  id: 3
+  time: '2025-03-24T22:21:11.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Add
+      message: Ported over the Resomi species!
+  id: 4
+  time: '2025-03-25T03:03:48.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Remove
+      message: Removed rotating anchored ship weapons
+    - type: Tweak
+      message: All ship weapon projectiles have had their speed decreased (fix related)
+    - type: Fix
+      message: Ship weapon projectiles shouldnt bypass walls anymore
+  id: 5
+  time: '2025-03-25T13:47:59.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Ship weapon flatpacks can now be found on expeditions.
+    - type: Tweak
+      message: The M381 has been buffed. God help us all.
+  id: 6
+  time: '2025-03-25T23:48:38.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Fix
+      message: >-
+        Chitinid and Resomi now have shoes and survival boxes in their loadouts.
+        Thanks to SuperJoelDood for reporting this bug.
+  id: 7
+  time: '2025-03-26T05:31:24.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Fix
+      message: >-
+        Shuttles should no longer be able to FTL out of expeditions before they
+        have ended.
+  id: 8
+  time: '2025-03-26T05:32:02.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added normal syndicate hardsuit to pirate uplinks.
+    - type: Tweak
+      message: >-
+        Removed the pirate captain job requirement to buy the commander hardsuit
+        in the pirate uplink.
+  id: 9
+  time: '2025-03-26T20:38:52.0000000+00:00'
+- author: SuperJoelD00D
+  changes:
+    - type: Add
+      message: >-
+        New NFSD hardsuit sprites! (Maybe this should encourage more law
+        enforcement?)
+  id: 10
+  time: '2025-03-26T21:53:44.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Archer to base shipyard (merc access restricted).
+    - type: Add
+      message: Added Kessler to pirate shipyard.
+  id: 11
+  time: '2025-03-26T22:11:07.0000000+00:00'

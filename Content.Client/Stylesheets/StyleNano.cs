@@ -118,7 +118,7 @@ namespace Content.Client.Stylesheets
 
         public static readonly Color PanelDark = Color.FromHex("#1E1E1E");
 
-        public static readonly Color NanoGold = Color.FromHex("#444444");
+        public static readonly Color NanoGold = Color.FromHex("#bdbdbd");
         public static readonly Color GoodGreenFore = Color.FromHex("#31843E");
         public static readonly Color ConcerningOrangeFore = Color.FromHex("#A5762F");
         public static readonly Color DangerousRedFore = Color.FromHex("#BB3232");
@@ -647,6 +647,11 @@ namespace Content.Client.Stylesheets
                 Element<ContainerButton>().Class(ContainerButton.StyleClassButton)
                     .Class(ButtonOpenRight)
                     .Prop(ContainerButton.StylePropertyStyleBox, BaseButtonOpenRight),
+
+                Element<ContainerButton>().Class(ContainerButton.StyleClassButton)
+                    .Class(ButtonOpenRightSelected)
+                    .Prop(ContainerButton.StylePropertyStyleBox, BaseButtonOpenRight)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorGoodDefault),
 
                 Element<ContainerButton>().Class(ContainerButton.StyleClassButton)
                     .Class(ButtonOpenLeft)
@@ -1741,7 +1746,21 @@ namespace Content.Client.Stylesheets
                     new[]
                     {
                         new StyleProperty(TextureButton.StylePropertyTexture, resCache.GetTexture("/Textures/Interface/Bwoink/un_pinned.png"))
-                    })
+                    }),
+
+                // Add the style rule for OpenRightSelected
+                Element<Button>().Class(ButtonOpenRightSelected)
+                    .Prop(ContainerButton.StylePropertyStyleBox, new StyleBoxTexture(BaseButtonOpenRight)
+                    {
+                        Modulate = ButtonColorGoodDefault
+                    }),
+
+                // Add the style rule for OpenBothSelected
+                Element<Button>().Class(ButtonOpenBothSelected)
+                    .Prop(ContainerButton.StylePropertyStyleBox, new StyleBoxTexture(BaseButtonOpenBoth)
+                    {
+                        Modulate = ButtonColorGoodDefault
+                    }),
             }).ToList());
         }
     }
