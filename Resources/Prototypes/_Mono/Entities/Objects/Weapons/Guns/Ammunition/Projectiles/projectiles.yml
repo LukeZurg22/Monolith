@@ -24,7 +24,7 @@
       requireNoGrid: true
       shape: triangle
     - type: TimedDespawn
-      lifetime: 60
+      lifetime: 10
     - type: PointLight
       color: "#FB00FF"
     - type: ExplodeOnTrigger
@@ -37,14 +37,14 @@
 
 - type: entity
   id: ShipRailgunProjectile
-  name: 280mm slug
+  name: M381 CHARON 280mm 75.25 kg slug
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Structural: 300
+        Structural: 1250
         Blunt: 100
         Heat: 100
   - type: Sprite
@@ -59,16 +59,15 @@
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
-    lifetime: 60
+    lifetime: 10
   - type: PointLight
     color: "#19AFFF"
   - type: ExplodeOnTrigger
   - type: Explosive
-    explosionType: Default
-    maxIntensity: 200
-    intensitySlope: 6
-    totalIntensity: 1200
-    maxTileBreak: 50
+    explosionType: HardBomb
+    totalIntensity: 2500.0
+    intensitySlope: 3
+    maxIntensity: 400
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
@@ -97,7 +96,7 @@
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
-    lifetime: 60
+    lifetime: 10
   - type: PointLight
     radius: 3.5
     color: orange
