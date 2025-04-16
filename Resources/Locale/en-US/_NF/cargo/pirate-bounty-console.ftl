@@ -1,4 +1,4 @@
-pirate-bounty-console-menu-title = Pirate bounty console
+pirate-bounty-console-menu-title = Rogue bounty console
 pirate-bounty-console-accept-button-chest = Summon Chest
 pirate-bounty-console-accept-button-label = Accept
 pirate-bounty-console-skip-button-text = Skip
