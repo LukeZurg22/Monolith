@@ -3,7 +3,6 @@
   parent: BaseItem
   id: CassettePlayer
   name: cassette player
-  abstract: true
   components:
   - type: Contraband
     severity: Class3Chem
@@ -29,6 +28,8 @@
   - type: Sprite
     sprite: _Mono/Objects/Fun/cassette.rsi
     state: tape_default
+  - type: Item
+    size: Small
   - type: StaticPrice
     price: 1000
 
