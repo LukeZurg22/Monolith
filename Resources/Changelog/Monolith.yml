@@ -1270,3 +1270,62 @@ Entries:
       message: EVA Wall locker on the Duran
   id: 149
   time: '2025-04-27T19:31:36.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Murasama. Admin-spawn only. Hopefully stays that way.
+  id: 150
+  time: '2025-04-27T21:22:44.0000000+00:00'
+- author: Tmanzxd
+  changes:
+    - type: Add
+      message: Dark Matter Enterprises added to the companies tab.
+  id: 151
+  time: '2025-04-27T21:36:01.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Advanced laser pistols can be used in HF-katana recipe now.
+    - type: Fix
+      message: Fixed CO bridge access for the STC.
+  id: 152
+  time: '2025-04-27T23:55:49.0000000+00:00'
+- author: Tmanzxd
+  changes:
+    - type: Add
+      message: Updated the color of DME.
+  id: 153
+  time: '2025-04-28T08:34:24.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added HF-katana to NCMC uplink
+    - type: Add
+      message: Added (big nerfed) Murasama to Rogue uplink
+    - type: Tweak
+      message: Changed HF-katana to C2 contraband from C3.
+  id: 154
+  time: '2025-04-28T13:23:09.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added Flyssa-class to the NCMC shipyard, a NGC destroyer lended from the
+        frontlines to help you kill Rogues. A bit over half a million, but the
+        CYREXAs are worth it.
+    - type: Add
+      message: >-
+        Added CYREXA 220mm guns as a heavy AP weapon, for capital-ship main
+        batteries.
+    - type: Remove
+      message: >-
+        Removed buying autocannons from TM/TO. You lagged the server too much
+        with gun bricks. No more.
+    - type: Tweak
+      message: Shield power surge duration lowered again to 25s.
+    - type: Tweak
+      message: CHARON is now unanchorable.
+    - type: Tweak
+      message: Removed CHARON flatpack from exped spawns.
+  id: 155
+  time: '2025-04-29T00:49:47.0000000+00:00'

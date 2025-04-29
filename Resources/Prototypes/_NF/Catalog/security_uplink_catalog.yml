@@ -250,6 +250,27 @@
         - SeniorOfficer
         - Sheriff
 
+- type: listing # Mono - this entire listing
+  id: UplinkSecurityHFBlade
+  name:  uplink-security-hfblade-name
+  description: uplink-security-hfblade-desc
+  productEntity: WeaponHFKatana
+  icon: { sprite: _Mono/Objects/Weapons/Melee/hfblade.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 15
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+        
 - type: listing
   id: UplinkSecurityVulcan
   name:  uplink-security-vulcan-name
@@ -1124,10 +1145,10 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityCash1000
-  name:  uplink-security-cash1000-name
-  description: uplink-security-cash1000-desc
-  productEntity: SpaceCash1000
+  id: UplinkSecurityCash5000
+  name:  uplink-security-cash5000-name
+  description: uplink-security-cash5000-desc
+  productEntity: SpaceCash5000 # Mono: Changed the exchange rate from 1000 to 5000
   icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000000 }
   cost:
     FrontierUplinkCoin: 1
