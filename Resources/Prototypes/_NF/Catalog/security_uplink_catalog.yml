@@ -1013,7 +1013,7 @@
   productEntity: EnergyShieldNfsd
   icon: { sprite: _NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 20
   categories:
     - UplinkSecurityUtility
   conditions:

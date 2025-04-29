@@ -98,7 +98,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   productEntity: EnergyShield
   cost:
-    Doubloon: 5
+    Doubloon: 30 # In order to get this, lots of bounties. Infamy comes with the bonus.
   categories:
   - UplinkPirateUtility
   conditions:
@@ -114,7 +114,7 @@
   icon: { sprite: Objects/Storage/boxes.rsi, state: box}
   productEntity: BoxT3SuperCapacitor
   cost:
-    Doubloon: 3
+    Doubloon: 8 # More thruster parts, higher price.
   categories:
   - UplinkPirateUtility
   conditions:
@@ -225,7 +225,7 @@
   productEntity: Stimpack
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: stimpen }
   cost:
-    Doubloon: 2
+    Doubloon: 3
   categories:
   - UplinkPirateUtility
   conditions:
@@ -305,7 +305,7 @@
   icon: { sprite: Objects/Devices/encryption_keys.rsi, state: pirate_label }
   productEntity: RadioImplanterFreelance
   cost:
-    Doubloon: 3
+    Doubloon: 10
   categories:
   - UplinkPirateUtility
   conditions:
@@ -641,7 +641,7 @@
   productEntity: ClothingMaskGasSyndicate
   icon: { sprite: Clothing/Mask/gassyndicate.rsi, state: icon }
   cost:
-    Doubloon: 3
+    Doubloon: 15
   categories:
   - UplinkPirateHardsuits
   conditions:

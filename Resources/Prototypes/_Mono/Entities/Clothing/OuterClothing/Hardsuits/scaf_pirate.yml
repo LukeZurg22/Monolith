@@ -2,7 +2,7 @@
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitPirateScaf
   name: pirate SCAF hardsuit
-  description: A (probably stolen) SCAF suit painted red with white stripes. The armor feels degraded, but lighter.
+  description: A reinforced SCAF suit painted with red and white stripes.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
@@ -25,8 +25,8 @@
         Radiation: 0.4
         Caustic: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
+    walkModifier: 0.85 # Heavier than SCAF, thicker armor
+    sprintModifier: 0.85 # Heavier than SCAF, thicker armor
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitPirateScaf

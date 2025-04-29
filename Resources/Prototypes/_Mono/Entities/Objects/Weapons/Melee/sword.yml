@@ -11,9 +11,9 @@
      wideAnimationRotation: -60
      damage:
        types: # It's still incredibly strong, but -reasonable-
-         Slash: 17.5
-         Shock: 4.5
-         Structural: 25 # Ion doesn't exist, according to Proto manager.
+         Slash: 15
+         Shock: 5
+         Structural: 18
    - type: Item
      sprite: _Mono/Objects/Weapons/Melee/hfblade.rsi
    - type: Clothing
